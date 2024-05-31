@@ -1,3 +1,5 @@
+import InteractiveWelcome from "./InteractiveWelcome "
+import Login from "./Login"
 import MouseClicker from "./MouseClicker"
 
 
@@ -9,6 +11,8 @@ function App() {
     <>
      <h1>my handleEvents project</h1>
      <MouseClicker/>
+     <Login/>
+     <InteractiveWelcome/>
     </>
   )
 }
