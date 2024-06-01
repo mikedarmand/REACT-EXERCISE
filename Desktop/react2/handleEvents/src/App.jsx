@@ -1,6 +1,7 @@
 import InteractiveWelcome from "./InteractiveWelcome "
 import Login from "./Login"
 import MouseClicker from "./MouseClicker"
+import UncontrolledLogin from "./UncontrolledLogin"
 
 
 
@@ -13,6 +14,7 @@ function App() {
      <MouseClicker/>
      <Login/>
      <InteractiveWelcome/>
+     <UncontrolledLogin/>
     </>
   )
 }
