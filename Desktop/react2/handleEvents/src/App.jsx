@@ -5,6 +5,7 @@ import Login from "./Login"
 import MouseClicker from "./MouseClicker"
 import UncontrolledLogin from "./UncontrolledLogin"
 import TodoList from "./TodoList "
+import Welcome from "./Welcome"
 
 
 
@@ -15,6 +16,7 @@ function App() {
     <>
       <h1>my handleEvents project</h1>
       <MouseClicker />
+      <Welcome/>
       <Login />
       <InteractiveWelcome />
       <UncontrolledLogin />
