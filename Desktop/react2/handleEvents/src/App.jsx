@@ -19,6 +19,11 @@ function App() {
       <UncontrolledLogin />
       <StrictMode><Component /> </StrictMode>
       <Counter />
+      <Color/>
+      <Colors const colors = {[
+        {id: 1, name: 'emeka'},
+        {id: 2, name: 'brown'}
+    ]}/>
     </>
   )
 }
